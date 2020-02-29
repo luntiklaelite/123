@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29EA9F37-32D0-4154-B240-8F017F8B88D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tovari</RootNamespace>
+    <AssemblyName>tovari</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chGrid.cs" />
+    <Compile Include="compForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="compForm.Designer.cs">
+      <DependentUpon>compForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="compForms\addForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="compForms\addForm.Designer.cs">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="compForms\editForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="compForms\editForm.Designer.cs">
+      <DependentUpon>editForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="db.cs" />
+    <Compile Include="dbCompany.cs" />
+    <Compile Include="dbProd.cs" />
+    <Compile Include="dbSotr.cs" />
+    <Compile Include="dbStaff.cs" />
+    <Compile Include="dbUsers.cs" />
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parami.cs" />
+    <Compile Include="prodForms\addForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prodForms\addForm.Designer.cs">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prodForms\editForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prodForms\editForm.Designer.cs">
+      <DependentUpon>editForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productsForm.Designer.cs">
+      <DependentUpon>productsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sotrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sotrForm.Designer.cs">
+      <DependentUpon>sotrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sotrForms\addForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sotrForms\addForm.Designer.cs">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sotrForms\editForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sotrForms\editForm.Designer.cs">
+      <DependentUpon>editForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffForm.Designer.cs">
+      <DependentUpon>staffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userForms\addUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userForms\addUser.Designer.cs">
+      <DependentUpon>addUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userForms\editUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userForms\editUser.Designer.cs">
+      <DependentUpon>editUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usersForm.Designer.cs">
+      <DependentUpon>usersForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="compForm.resx">
+      <DependentUpon>compForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="compForms\addForm.resx">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="compForms\editForm.resx">
+      <DependentUpon>editForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prodForms\addForm.resx">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prodForms\editForm.resx">
+      <DependentUpon>editForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productsForm.resx">
+      <DependentUpon>productsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sotrForm.resx">
+      <DependentUpon>sotrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sotrForms\addForm.resx">
+      <DependentUpon>addForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staffForm.resx">
+      <DependentUpon>staffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userForms\addUser.resx">
+      <DependentUpon>addUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userForms\editUser.resx">
+      <DependentUpon>editUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usersForm.resx">
+      <DependentUpon>usersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

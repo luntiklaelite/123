@@ -1,0 +1,64 @@
+E:\kalinin isp132\tovari\tovari\bin\Debug\tovari.exe.config
+E:\kalinin isp132\tovari\tovari\bin\Debug\tovari.exe
+E:\kalinin isp132\tovari\tovari\bin\Debug\tovari.pdb
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.csprojResolveAssemblyReference.cache
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.loginForm.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.Properties.Resources.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.csproj.GenerateResource.Cache
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.exe
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.pdb
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.mainForm.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.productsForm.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.usersForm.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.userForms.addUser.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.userForms.editUser.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.compForm.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.compForms.addForm.resources
+E:\kalinin isp132\tovari\tovari\obj\Debug\tovari.compForms.editForm.resources
+E:\kalinin_isp132\tovari\tovari\bin\Debug\tovari.exe.config
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.exe
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.pdb
+E:\kalinin_isp132\tovari\tovari\bin\Debug\tovari.exe
+E:\kalinin_isp132\tovari\tovari\bin\Debug\tovari.pdb
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.csprojResolveAssemblyReference.cache
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.compForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.compForms.addForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.compForms.editForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.loginForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.mainForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.productsForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.Properties.Resources.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.userForms.addUser.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.userForms.editUser.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.usersForm.resources
+E:\kalinin_isp132\tovari\tovari\obj\Debug\tovari.csproj.GenerateResource.Cache
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.csprojAssemblyReference.cache
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.compForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.compForms.addForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.compForms.editForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.loginForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.mainForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.productsForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.Properties.Resources.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.userForms.addUser.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.userForms.editUser.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.usersForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.csproj.GenerateResource.cache
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.csproj.CoreCompileInputs.cache
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.exe
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.pdb
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\tovari.exe.config
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\tovari.exe
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\tovari.pdb
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\MySql.Data.dll
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\Google.Protobuf.dll
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\Renci.SshNet.dll
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\bin\Debug\MySql.Data.xml
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.csproj.CopyComplete
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.staffForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.sotrForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.prodForms.addForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.prodForms.editForm.resources
+C:\Users\LUNTIKLAELITE\Desktop\tovari\tovari\obj\Debug\tovari.sotrForms.addForm.resources
