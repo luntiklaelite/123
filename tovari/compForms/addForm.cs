@@ -15,9 +15,9 @@ namespace tovari.compForms
         public addForm()
         {
             InitializeComponent();
-            typeFie.Items.Add(dbCompany.type.common);
-            typeFie.Items.Add(dbCompany.type.expensive);
-            typeFie.Items.Add(dbCompany.type.vip);
+            typeFie.Items.Add(new compType("Обычный", dbCompany.type.common));
+            typeFie.Items.Add(new compType("Элитный", dbCompany.type.expensive));
+            typeFie.Items.Add(new compType("ВИП", dbCompany.type.vip));
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,7 +27,7 @@ namespace tovari.compForms
                 MessageBox.Show("Заполните все поля!");
                 return;
             }
-            if (dbCompany.addComp(nameFie.Text, typeFie.SelectedIndex))
+            if (dbCompany.addComp(nameFie.Text, Convert.ToInt32(((compType)typeFie.SelectedItem).tip)))
             {
                 MessageBox.Show("Успешно!");
                 DialogResult = DialogResult.Yes;

@@ -38,13 +38,14 @@ namespace tovari.prodForms
         private void but_edit_Click(object sender, EventArgs e)
         {
             double pric = prod.products_price;
+            double pricee;
             dbStaff staffs = prod.staff;
             dbCompany comp = prod.company;
             if (!(objectFie.SelectedIndex < 0))
                 staffs = (dbStaff)objectFie.SelectedItem;
             if (!(compFie.SelectedIndex < 0))
                 comp = (dbCompany)compFie.SelectedItem;
-            if (double.TryParse(priceFie.Text, out double pricee))
+            if (double.TryParse(priceFie.Text, out pricee))
                 pric = pricee;
             if (prod.editProd(staffs, pric, comp))
             {

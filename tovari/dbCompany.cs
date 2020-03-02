@@ -16,6 +16,17 @@ namespace tovari
             vip = 2
         }
 
+        public static string getNameType(type tip)
+        {
+            if (tip == type.common)
+                return "Обычный";
+            if (tip == type.expensive)
+                return "Элитный";
+            if (tip == type.vip)
+                return "ВИП";
+            return "unknown";
+        }
+
         public int company_id;
         public string company_name;
         public type company_type;

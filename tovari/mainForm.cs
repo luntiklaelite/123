@@ -71,5 +71,11 @@ namespace tovari
             sotrForm form = new sotrForm();
             form.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            uprSotrForm form = new uprSotrForm();
+            form.Show();
+        }
     }
 }

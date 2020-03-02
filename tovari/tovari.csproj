@@ -65,6 +65,7 @@
     <Compile Include="compForms\editForm.Designer.cs">
       <DependentUpon>editForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="compType.cs" />
     <Compile Include="db.cs" />
     <Compile Include="dbCompany.cs" />
     <Compile Include="dbProd.cs" />
@@ -128,6 +129,12 @@
     <Compile Include="staffForm.Designer.cs">
       <DependentUpon>staffForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="uprSotrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uprSotrForm.Designer.cs">
+      <DependentUpon>uprSotrForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="userForms\addUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="staffForm.resx">
       <DependentUpon>staffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uprSotrForm.resx">
+      <DependentUpon>uprSotrForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="userForms\addUser.resx">
       <DependentUpon>addUser.cs</DependentUpon>
